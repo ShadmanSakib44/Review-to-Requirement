@@ -6,7 +6,9 @@ Department of Computer Science and Engineering
 Islamic University of Technology (IUT), Bangladesh
 
 **Supervisor:**  
-Shohel Ahmed (Assistant Professor)
+Shohel Ahmed (Assistant Professor)  
+<https://cse.iutoic-dhaka.edu/profile/sohel/education>
+
 
 
 
