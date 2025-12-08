@@ -30,7 +30,7 @@ The workflow integrates **data collection**, **prompt engineering**, **story gen
 ## Repository Structure
 
 ```
-Thesis/
+Review-to-Requirement/
 ├── data/
 │   ├── processed/         # Processed and filtered datasets
 │   └── raw/               # Original Mini-BAR subset data
