@@ -7,7 +7,7 @@ Islamic University of Technology (IUT), Bangladesh
 
 **Supervisor:**  
 Shohel Ahmed (Assistant Professor)  
-<https://cse.iutoic-dhaka.edu/profile/sohel/education>
+
 
 
 
