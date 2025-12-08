@@ -1,12 +1,11 @@
 #  From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?
 
 **Authors:**  
-Oishy Fatema Akhand · Shadman Sakib · Tasnia Tasneem  
+Oishy Fatema Akhand · Shadman Sakib · Tasnia Tasneem · Shohel Ahmed
 Department of Computer Science and Engineering  
 Islamic University of Technology (IUT), Bangladesh
 
-**Supervisor:**  
-Shohel Ahmed (Assistant Professor)  
+
 
 
 
