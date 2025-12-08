@@ -8,8 +8,7 @@ Islamic University of Technology (IUT), Bangladesh
 **Supervisor:**  
 Shohel Ahmed (Assistant Professor)
 
-**Co-Supervisor:**  
-Md. Rafid Haque (Lecturer)
+
 
 **Website Application:**  
 [User Story Evaluator – Live Interface](https://human-evaluation-website-t7sf.vercel.app)
