@@ -1,16 +1,12 @@
-#  From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?
+# From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **Authors:**  
 Oishy Fatema Akhand · Shadman Sakib · Tasnia Tasneem · Shohel Ahmed
 
 Department of Computer Science and Engineering  
 Islamic University of Technology (IUT), Bangladesh
-
-
-
-
-
-
 
 **Website Application:**  
 [User Story Evaluator – Live Interface](https://human-evaluation-website-t7sf.vercel.app)
@@ -21,7 +17,7 @@ Islamic University of Technology (IUT), Bangladesh
 
 This repository contains all materials related to the research project **"Automated User Story Generation from App Reviews Using Large Language Models (LLMs)"**.
 
-The project explores how open and proprietary LLMs—**GPT-3.5 Turbo**, **Gemini 2 Flash**, and **Mistral 7B Instruct**—can transform **real-world mobile app reviews** into **agile-ready user stories** through zero-shot, one-shot, and two-shot prompting strategies.
+The project explores how open and proprietary LLMs (**GPT-3.5 Turbo**, **Gemini 2 Flash**, and **Mistral 7B Instruct**) can transform **real-world mobile app reviews** into **agile-ready user stories** through zero-shot, one-shot, and two-shot prompting strategies.
 
 The workflow integrates **data collection**, **prompt engineering**, **story generation**, and **evaluation** through both **human (RUST)** and **automated (RoBERTa + BLEU/ROUGE/BERTScore)** metrics.
 
@@ -43,8 +39,9 @@ Review-to-Requirement/
 ├── figures/               # Visualization files
 ├── outputs/
 │   └── metrics/           # Evaluation results
-└── misc/
-    └── pipeline.pdf       # Full-resolution pipeline figure
+├── misc/
+│   └── pipeline.pdf       # Full-resolution pipeline figure
+└── LICENSE                # CC BY 4.0
 ```
 
 ---
@@ -73,7 +70,7 @@ The complete end-to-end research pipeline consists of the following stages:
 Each model tested under all prompting strategies.
 
 ### 4. Evaluation Framework
-- **Human Evaluation**: Via RUST dimensions — *Readability, Understandability, Specifiability, Technical aspects*
+- **Human Evaluation**: Via RUST dimensions: *Readability, Understandability, Specifiability, Technical aspects*
 - **Automated Evaluation**: Fine-tuned RoBERTa classifier on UStAI dataset
 - **Supporting Metrics**: BLEU, ROUGE-L, BERTScore
 
@@ -113,8 +110,8 @@ Each model tested under all prompting strategies.
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/<username>/Thesis.git
-cd Thesis
+git clone https://github.com/ShadmanSakib44/Review-to-Requirement.git
+cd Review-to-Requirement
 ```
 
 #### 2. Create Virtual Environment
@@ -193,4 +190,26 @@ Open [http://localhost:3000](http://localhost:3000) to access the evaluation int
 
 ---
 
+## License and Data Usage
 
+### Our contributions: CC BY 4.0
+The human-written user stories, LLM-generated user stories, human evaluation (RUST) ratings, automated evaluation results and all other annotations created for this study are licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full license text is in the [`LICENSE`](LICENSE) file. You may share and adapt them for any purpose, including academic research and processing with third-party LLM APIs, provided you give appropriate credit by citing our paper (see below).
+
+### Source app reviews: Mini-BAR (MIT)
+The app review texts in `data/raw/` and the reviews paired in `data/processed/` come from the Mini-BAR dataset (Wei et al., 2023, https://github.com/Jl-wei/mini-bar), released under the MIT License. Reuse of the review texts is subject to that license; please also cite the Mini-BAR paper:
+
+> J. Wei, A.-L. Courbis, T. Lambolais, B. Xu, P. L. Bernard and G. Dray, "Zero-shot Bilingual App Reviews Mining with Large Language Models," *2023 IEEE 35th International Conference on Tools with Artificial Intelligence (ICTAI)*, pp. 898–904, 2023. doi:10.1109/ICTAI59109.2023.00135
+
+### How to cite
+If you use this dataset, please cite:
+
+> O. F. Akhand, S. Sakib, T. Tasneem and S. Ahmed, "From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?" arXiv:2603.28163, 2026.
+
+```bibtex
+@article{akhand2026reviews,
+  title   = {From Reviews to Requirements: Can LLMs Generate Human-Like User Stories?},
+  author  = {Akhand, Oishy Fatema and Sakib, Shadman and Tasneem, Tasnia and Ahmed, Shohel},
+  journal = {arXiv preprint arXiv:2603.28163},
+  year    = {2026}
+}
+```
